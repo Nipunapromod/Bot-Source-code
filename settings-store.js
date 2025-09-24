@@ -9,9 +9,9 @@ const settingsFilePath = path.join(process.cwd(), 'settings.json');
 
 // Default settings
 const defaultSettings = {
-    auto_status_view: true,
-    auto_react: true,
-    bot_mode: 'online', // 'online' or 'offline'
+    auto_status_view: false,
+    auto_react: false,
+    bot_mode: 'offline', // 'online' or 'offline'
     prefix: '!',
     allowed_prefixes: ['!', '/', '?', '¢', '&', '.']
 };
